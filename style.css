@@ -1,0 +1,71 @@
+html{
+	/* This image will be displayed fullscreen */
+	background:url('chicago-blue-skies-1.jpg') no-repeat center center;
+
+	/* Ensure the html element always takes up the full height of the browser window */
+	min-height:100%;
+
+	/* The Magic */
+	background-size:cover;
+}
+
+div {
+	background-color: orange;
+
+}
+
+h1 {
+	font-family: Courier;
+	font-size: 80px;
+	text-align: center;
+}
+
+h2 {
+	font-family: Courier;
+	font-size: 25px;
+	text-align: center;
+}
+
+ul {
+	text-align: center;
+	font-family: Courier;
+}
+
+li {
+	list-style-type: none; 
+	/* this gets rid of the default <ul> bullet points */
+}
+
+a:link {
+    color: blue;
+}
+
+a:visited{
+	color: purple;
+}
+
+#profilepic {
+	border: none;
+	border-radius: 50px;
+	border-radius: 50px;
+	border-radius: 50px;
+	
+}
+
+/* this is for inserting social icons using bootstrap 
+.fa {
+	padding-left: 1000px;
+	text-align: 
+
+    display:inline-block;
+    font-size: 100px;
+    line-height: 50px;
+    background-color:transparent;
+    color:black;
+    width: 50px;
+    height: 50px;
+    text-align: center;   
+
+} */
+
+
